@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas no HTML</title>
+</head>
+<body>
+    <h1>Tabelas</h1>
+
+    <table>
+        <!-- thead estrutura a parte de cima da tabela -->
+        <thead>      
+        <tr>
+            <th>Produto</th>
+            <th>Quantidade</th>
+            <th>Preço</th>
+            <th>Black Friday</th>
+        </tr>
+        </thead>
+        <!-- tbody estrutura o corpo da tabelas -->
+        <tbody>
+           <tr>
+            <td rowspan="2">Produto 1</td>
+            <td>2</td>
+            <td>5$</td>
+            <td>sim</td>
+           </tr> 
+
+           <tr>
+            <td>Produto 2</td>
+            <td>8</td>
+            <td>10$</td>
+            
+         
+           </tr> 
+
+           <tr>
+            <td>Produto 3</td>
+            <td>5</td>
+            <td>20$</td>
+            <td>não</td>
+           </tr> 
+
+        </tbody>
+
+<!-- colspan expande a linha para demais linhas
+
+rowspan expande a coluna para demais linhas abaixo
+-->
+
+<!-- th é responsável pelas colunas -->
+ <!-- td é responsável pelos dados a serem inseridos nas colunas -->
+  
+        <!-- tfoot organiza a estrutura do rodape da tabela -->
+        <tfoot>
+            <tr>
+                <td colspan="3">Total</td>
+                <td>30</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
